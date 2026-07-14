@@ -1,0 +1,9 @@
+# RandomTP-Konfiguration
+
+# Radius in Blöcken um den Weltspawn, in dem zufällige X/Z-Koordinaten
+# gewürfelt werden (±radius). Positionen außerhalb der World Border
+# werden automatisch verworfen und neu gewürfelt.
+radius: 2000
+
+# Ob teleportierte Spieler eine kurze Nachricht erhalten (true/false).
+send-message: true

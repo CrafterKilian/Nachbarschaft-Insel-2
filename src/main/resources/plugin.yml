@@ -1,0 +1,17 @@
+name: RandomTP
+version: ${project.version}
+main: de.nachbarschaftsinsel.randomtp.RandomTpPlugin
+api-version: "1.21"
+description: Teleportiert alle Online-Spieler per /start an zufällige Positionen.
+
+commands:
+  start:
+    description: Teleportiert sofort alle Online-Spieler an zufällige Positionen.
+    usage: /start
+    permission: randomtp.admin
+    permission-message: Dazu hast du keine Berechtigung.
+
+permissions:
+  randomtp.admin:
+    description: Erlaubt das Ausführen von /start.
+    default: op
